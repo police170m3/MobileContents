@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="B Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Main 액티비티로 이동"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="웹 브라우저 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="주소록 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="달력 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+
+    <Button
+        android:text="이메일 발송 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+
+    <Button
+        android:text="갤러리 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7" />
+
+    <Button
+        android:text="지도 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8" />
+
+    <Button
+        android:text="메시지 발송 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9" />
+
+    <Button
+        android:text="음악 재생 액티비티"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10" />
+</LinearLayout>
