@@ -32,4 +32,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/file_btn" />
+
+    <Button
+        android:text="Preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pref_btn" />
 </LinearLayout>

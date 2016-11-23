@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button button2 = (Button) findViewById(R.id.button11);
         Button button3 = (Button) findViewById(R.id.db_btn);
         Button button4 = (Button) findViewById(R.id.file_btn);
+        Button button5 = (Button) findViewById(R.id.pref_btn);
 
         View.OnClickListener listener = new View.OnClickListener(){
             @Override
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.file_btn:
                         Intent intent4 = new Intent(MainActivity.this, MemoFileManagerActivity.class);
                         startActivity(intent4);
+                    case R.id.pref_btn:
+                        Intent intent5 = new Intent(MainActivity.this, PrefActivity.class);
+                        startActivity(intent5);
                 }
             }
         };
@@ -44,5 +48,6 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(listener);
         button3.setOnClickListener(listener);
         button4.setOnClickListener(listener);
+        button5.setOnClickListener(listener);
     }
 }

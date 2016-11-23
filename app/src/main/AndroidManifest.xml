@@ -29,6 +29,7 @@
             android:label="Load Pic"></activity>
         <activity android:name=".ActivityDB"></activity>
         <activity android:name=".MemoFileManagerActivity"></activity>
+        <activity android:name=".PrefActivity"></activity>
     </application>
 
 </manifest>
