@@ -24,6 +24,11 @@
         </activity>
 
         <activity android:name=".BActivity"></activity>
+        <activity android:name=".ActivityA"></activity>
+        <activity android:name=".ActivityB"
+            android:label="Load Pic"></activity>
+        <activity android:name=".ActivityDB"></activity>
+        <activity android:name=".MemoFileManagerActivity"></activity>
     </application>
 
 </manifest>

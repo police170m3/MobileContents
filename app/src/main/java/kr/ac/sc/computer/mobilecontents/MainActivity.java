@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button = (Button) findViewById(R.id.button);
+        Button button2 = (Button) findViewById(R.id.button11);
+        Button button3 = (Button) findViewById(R.id.db_btn);
+        Button button4 = (Button) findViewById(R.id.file_btn);
 
         View.OnClickListener listener = new View.OnClickListener(){
             @Override
@@ -23,10 +26,23 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent(MainActivity.this, BActivity.class);
                         startActivity(intent);
                         break;
+                    case R.id.button11:
+                        Intent intent2 = new Intent(MainActivity.this, ActivityA.class);
+                        startActivity(intent2);
+                        break;
+                    case R.id.db_btn:
+                        Intent intent3 = new Intent(MainActivity.this, ActivityDB.class);
+                        startActivity(intent3);
+                    case R.id.file_btn:
+                        Intent intent4 = new Intent(MainActivity.this, MemoFileManagerActivity.class);
+                        startActivity(intent4);
                 }
             }
         };
 
         button.setOnClickListener(listener);
+        button2.setOnClickListener(listener);
+        button3.setOnClickListener(listener);
+        button4.setOnClickListener(listener);
     }
 }

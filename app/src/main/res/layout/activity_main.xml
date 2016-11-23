@@ -14,4 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11" />
+
+    <Button
+        android:text="DataBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/db_btn" />
+
+    <Button
+        android:text="FILE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_btn" />
 </LinearLayout>

@@ -66,8 +66,10 @@ public class BActivity  extends AppCompatActivity {
         ((Button)findViewById(R.id.button7)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_MAIN);
-                i.addCategory(Intent.CATEGORY_APP_GALLERY);
+//                Intent i = new Intent(Intent.ACTION_MAIN);
+//                i.addCategory(Intent.CATEGORY_APP_GALLERY);
+                Uri uri = Uri.parse("content://media/external/images/media");
+                Intent i = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(i);
             }
         });
